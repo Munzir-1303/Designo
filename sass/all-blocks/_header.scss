@@ -1,0 +1,49 @@
+.header{
+    margin-top: 64px;
+    margin-bottom: 70px;
+}
+
+
+.header  .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav{
+
+
+
+    margin-top: -9px;  
+
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        margin: 0 30px;
+    }
+
+    &__link{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        color: #333136;
+        padding: 20px;
+        transition: 3s;
+
+
+
+
+        &:hover{
+            color: #ffffff;
+            background: #ff0000;
+            transition: 3s;
+            border-radius: 20px;
+        }
+    }
+}
